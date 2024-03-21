@@ -1,0 +1,477 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar style */
+.ls-btn {
+    border-radius: 30px;
+    padding: 7px 30px;
+    margin: auto;
+}
+
+
+.ls-btn:hover {
+    background-color: transparent;
+    color: red;
+}
+
+.navbar-title {
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.navbar-title:hover {
+    color: white;
+}
+
+/* sidebar style */
+
+.sidebar {
+    width: 300px;
+    height: 570px;
+    margin-top: 5px;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    overflow: auto;
+}
+
+.sidebar-header>h3 {
+    color: red;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.sidebar-header>img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+/* sidebar menu style */
+.sidebar-menu {
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    list-style: none;
+
+}
+
+.sidebar-menu>li {
+    color: gray;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sidebar-menu>li>i {
+    background-color: #0f0f0f;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.active {
+    color: red !important;
+    background-color: black;
+    margin-left: -67px;
+    padding-left: 66px;
+    margin-right: 20px;
+    border-radius: 0px 50px 50px 0px;
+    border-left: 3px solid red;
+}
+
+
+.sidebar-sing-out {
+    margin-top: 200px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.main {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px 0px 5px;
+    border-radius: 10px;
+    width: 79%;
+    overflow: auto;
+}
+
+/* transaction style */
+.transaction {
+    margin: auto;
+
+}
+
+.total {
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: gray;
+    border-radius: 10px;
+}
+
+.total>h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.total>span {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+/* income style */
+
+.income,
+.expense {
+    margin: 5px;
+    overflow: hidden;
+    height: 560px;
+}
+
+.income-form {
+    /* background-color: black; */
+    margin: 20px;
+}
+
+.inputs {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 8px;
+    color: red;
+    font-weight: 600;
+}
+
+.inputs>option {
+    color: red;
+}
+
+.income-btn {
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.income-btn:hover {
+    background-color: transparent;
+    color: red;
+}
+
+.income-title {
+    margin: 5px;
+    color: gray;
+
+}
+
+.income-title>h2 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.income-head {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 5px;
+    margin: auto;
+    width: 95%;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.income-head>h3 {
+    color: gray;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 5px;
+}
+
+.income-head>h3>span {
+    color: green;
+}
+
+.income-scroll {
+    overflow: auto;
+    /* background-color: black; */
+    height: 410px;
+    margin-top: 20px;
+}
+
+.Income-item {
+    background-color: transparent;
+    border: 1px solid gray;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: -1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Income-item>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.Income-item>div>div {
+    width: 90%;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+}
+
+.delete-btn:hover {
+    color: red;
+    background-color: transparent;
+    border: 1px solid red;
+}
+
+.Income-item>div>div>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.Income-item>div>div>h5 {
+    color: red;
+    font-weight: 600;
+    margin: 5px 10px;
+}
+
+
+.Income-item>div>div>div>p {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: gray;
+}
+
+/* login style  */
+
+.login {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.login>h2 {
+    color: red;
+    font-weight: bolder;
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+.login-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.log-input {
+    width: 80%;
+    height: 50px;
+    margin: 8px auto;
+    background-color: #0f0f0f;
+    border: none;
+    border-radius: 30px;
+    color: gray;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.login-btn {
+    width: 80%;
+    margin: 20px auto;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.login-btn:hover {
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+}
+
+form>p {
+    margin: auto;
+    font-size: 18px;
+}
+
+.login-link {
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navbar-title {
+        text-align: center;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 55px;
+        display: flex;
+        flex-direction: row;
+        overflow: none;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .sidebar-header {
+        display: none;
+    }
+
+
+    .sidebar-menu {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sidebar-menu>li {
+        font-size: 11px;
+        text-align: center;
+        margin-left: 10px;
+        padding: 0px;
+    }
+
+    .active {
+        color: red !important;
+        background-color: transparent;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px 0px 0px 0px;
+        border-bottom: 1px solid red;
+        border-left: none;
+    }
+
+    .ls-btn {
+        font-size: 10px;
+        padding: 5px 10px;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+
+    .sidebar-sing-out {
+        margin-top: 0px;
+    }
+
+    .dashboard {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .main {
+        width: 98%;
+        margin-top: 10px;
+        height: auto;
+    }
+
+    .total>h2 {
+        font-size: 25px;
+
+    }
+
+    .total>span {
+        font-size: 25px;
+    }
+
+    .income,
+    .expense {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        overflow: auto;
+        margin: auto;
+    }
+
+    .income-head {
+        margin-top: 0px;
+    }
+
+    .income-head>h3 {
+        font-size: 25px;
+        margin: 0px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-4 {
+        width: 100%;
+        margin: auto;
+        border-bottom: 1px solid red;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .income-scroll {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .Income-item {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+
+    .Income-item>div>div>h5 {
+        font-size: 18px;
+        text-align: left;
+        padding-bottom: 2px;
+    }
+
+    .Income-item>div>div>div>p {
+        margin-left: 5px;
+        margin-right: 5px;
+        color: gray;
+        font-size: 14px;
+    }
+
+    .delete-btn {
+        font-size: 15px;
+        padding: 8px;
+    }
+}
