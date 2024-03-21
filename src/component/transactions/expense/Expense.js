@@ -10,7 +10,12 @@ function Expense() {
     const context = useContext(GlobalContext)
     const { expenses, getExpense, totalExpense } = context
 
-    useEffect(() => { getExpense() }, [])
+    useEffect(() => {
+        getExpense()
+    },
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        [])
     return (
 
         <div className='container income'>

@@ -14,8 +14,8 @@ function Dashboard() {
         if (!localStorage.getItem('token')) {
             navigate("/login")
         } else {
-            return
-            <Transaction />
+            // return
+            // <Transaction />
         }
     })
     const [active, setActive] = useState(1)
